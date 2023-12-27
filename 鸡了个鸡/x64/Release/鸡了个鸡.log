@@ -1,0 +1,21 @@
+﻿  main.cpp
+D:\c++\练习\鸡了个鸡\鸡了个鸡\鸡了个鸡\main.cpp(17,51): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\c++\练习\鸡了个鸡\鸡了个鸡\鸡了个鸡\main.cpp(17,51): message : 尝试匹配参数列表“(IMAGE *, const char [14], const int, const int)”时
+D:\c++\练习\鸡了个鸡\鸡了个鸡\鸡了个鸡\main.cpp(18,49): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\c++\练习\鸡了个鸡\鸡了个鸡\鸡了个鸡\main.cpp(18,49): message : 尝试匹配参数列表“(IMAGE *, const char [14], int, int)”时
+D:\c++\练习\鸡了个鸡\鸡了个鸡\鸡了个鸡\main.cpp(19,49): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\c++\练习\鸡了个鸡\鸡了个鸡\鸡了个鸡\main.cpp(19,49): message : 尝试匹配参数列表“(IMAGE *, const char [14], int, int)”时
+D:\c++\练习\鸡了个鸡\鸡了个鸡\鸡了个鸡\main.cpp(20,49): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\c++\练习\鸡了个鸡\鸡了个鸡\鸡了个鸡\main.cpp(20,49): message : 尝试匹配参数列表“(IMAGE *, const char [14], int, int)”时
+D:\c++\练习\鸡了个鸡\鸡了个鸡\鸡了个鸡\main.cpp(68,35): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(224,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(223,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\c++\练习\鸡了个鸡\鸡了个鸡\鸡了个鸡\main.cpp(68,35): message : 尝试匹配参数列表“(int, int, char [33])”时
